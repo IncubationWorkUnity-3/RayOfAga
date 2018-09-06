@@ -15,7 +15,7 @@ public class clab : MonoBehaviour {
 		transform.Translate(0,0.1f,0);
 	}
 	void OnTriggerEnter2D(Collider2D coll){
-		Instantiate (particle, transform.position, Quaternion.identity);
+		//Instantiate (particle, transform.position, Quaternion.identity);
 		Destroy (coll.gameObject);
 	}
 }
